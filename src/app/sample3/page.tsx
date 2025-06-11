@@ -246,7 +246,7 @@ export default function Sample3() {
                   <div className="text-3xl font-light text-amber-600 mb-2">
                     100+
                   </div>
-                  <div className="text-gray-700">100+ 만 명의 만족고객</div>
+                  <div className="text-gray-700">100만명 이상의 만족고객</div>
                 </div>
               </div>
 
