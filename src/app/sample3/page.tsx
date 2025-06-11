@@ -62,12 +62,6 @@ export default function Sample3() {
               </div>
             </Link>
             <nav className="hidden md:flex space-x-8">
-              <Link
-                href="/"
-                className="text-gray-700 hover:text-gray-900 font-medium transition-colors"
-              >
-                디자인 선택
-              </Link>
               <a
                 href="#gallery"
                 className="text-gray-700 hover:text-gray-900 font-medium transition-colors"
