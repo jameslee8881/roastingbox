@@ -137,7 +137,7 @@ export default function Sample3() {
         {/* Large Feature Image */}
         <div className="w-full h-96 relative overflow-hidden">
           <Image
-            src="/company2.jpg"
+            src="/user_img1.jpg"
             alt="Coffee Roastery Experience"
             fill
             className="object-cover"
@@ -153,52 +153,52 @@ export default function Sample3() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-0">
           <div className="relative h-64 overflow-hidden group">
             <Image
-              src="/roasting.png"
+              src="/user_img2.jpg"
               alt="Roasting Process"
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <span className="text-white font-light text-lg">로스팅 과정</span>
-            </div>
+            </div> */}
           </div>
 
           <div className="relative h-64 overflow-hidden group">
             <Image
-              src="/coffee-cup.jpg"
+              src="/user_img3.jpg"
               alt="Coffee Cup"
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <span className="text-white font-light text-lg">
                 완벽한 한 잔
               </span>
-            </div>
+            </div> */}
           </div>
 
           <div className="relative h-64 overflow-hidden group">
             <Image
-              src="/coffee-beans.jpg"
+              src="/user_img4.jpg"
               alt="Coffee Art"
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <span className="text-white font-light text-lg">아트 커피</span>
-            </div>
+            </div> */}
           </div>
 
           <div className="relative h-64 overflow-hidden group">
             <Image
-              src="/coffee.png"
+              src="/user_img5.jpg"
               alt="Coffee Experience"
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            {/* <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <span className="text-white font-light text-lg">커피 경험</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -235,9 +235,9 @@ export default function Sample3() {
               <div className="bg-white p-6 rounded-2xl shadow-sm">
                 <div className="text-center">
                   <div className="text-3xl font-light text-amber-600 mb-2">
-                    10+
+                    20+
                   </div>
-                  <div className="text-gray-700">Years Experience</div>
+                  <div className="text-gray-700">20년 이상의 경험</div>
                 </div>
               </div>
 
@@ -246,7 +246,7 @@ export default function Sample3() {
                   <div className="text-3xl font-light text-amber-600 mb-2">
                     100+
                   </div>
-                  <div className="text-gray-700">Happy Customers</div>
+                  <div className="text-gray-700">100+ 만 명의 만족고객</div>
                 </div>
               </div>
 
@@ -255,7 +255,7 @@ export default function Sample3() {
                   <div className="text-3xl font-light text-amber-600 mb-2">
                     24/7
                   </div>
-                  <div className="text-gray-700">Fresh Roasting</div>
+                  <div className="text-gray-700">24시간 신선한 로스팅</div>
                 </div>
               </div>
             </div>
