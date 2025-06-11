@@ -92,18 +92,18 @@ export default function Sample3() {
             src="/hero2.png"
             alt="RoastingBox Hero"
             fill
-            className="object-cover"
+            className="object-cover object-left md:object-center"
             priority
           />
           <div className="absolute inset-0 bg-black/20"></div>
 
           {/* Minimal Center Text */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center text-white">
-              <h1 className="text-6xl md:text-8xl font-light mb-4 tracking-wider">
+            <div className="text-center text-white px-4">
+              <h1 className="text-4xl md:text-6xl lg:text-8xl font-light mb-4 tracking-wider">
                 ROASTING BOX
               </h1>
-              <p className="text-xl md:text-2xl font-light opacity-90">
+              <p className="text-lg md:text-xl lg:text-2xl font-light opacity-90">
                 Coffee Experience
               </p>
             </div>
@@ -401,7 +401,7 @@ export default function Sample3() {
       <section
         id="contact"
         data-animate
-        className={`relative h-[600px] flex items-center justify-center ${getSectionClass(
+        className={`relative h-[600px] md:h-[600px] flex items-center justify-center ${getSectionClass(
           "contact"
         )}`}
       >
@@ -410,41 +410,50 @@ export default function Sample3() {
             src="/company1.jpg"
             alt="Contact Background"
             fill
-            className="object-cover"
-            style={{ objectPosition: "50% -250px" }}
+            className="object-cover object-top md:object-[50%_-250px]"
           />
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h2 className="text-5xl font-light mb-8">Contact</h2>
-          <div className="w-32 h-px bg-white mx-auto mb-16"></div>
+          <h2 className="text-3xl md:text-5xl font-light mb-6 md:mb-8">
+            Contact
+          </h2>
+          <div className="w-24 md:w-32 h-px bg-white mx-auto mb-8 md:mb-16"></div>
 
-          <div className="grid md:grid-cols-3 gap-12 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-12 md:mb-16">
             <div>
-              <h3 className="text-xl font-light mb-4">Address</h3>
-              <p className="text-lg opacity-90 leading-relaxed">
+              <h3 className="text-lg md:text-xl font-light mb-3 md:mb-4">
+                Address
+              </h3>
+              <p className="text-sm md:text-lg opacity-90 leading-relaxed">
                 경기도 양주시
                 <br />
                 원학로147번길 123-6
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-light mb-4">Phone</h3>
-              <p className="text-lg opacity-90">031-847-1238</p>
+              <h3 className="text-lg md:text-xl font-light mb-3 md:mb-4">
+                Phone
+              </h3>
+              <p className="text-sm md:text-lg opacity-90">031-847-1238</p>
             </div>
             <div>
-              <h3 className="text-xl font-light mb-4">Business</h3>
-              <p className="text-lg opacity-90">커피원두 전문 로스터리</p>
+              <h3 className="text-lg md:text-xl font-light mb-3 md:mb-4">
+                Business
+              </h3>
+              <p className="text-sm md:text-lg opacity-90">
+                커피원두 전문 로스터리
+              </p>
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center mb-8">
             <a
               href="http://blog.naver.com/roastingbox_coffee"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-10 py-4 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full font-light text-lg transition-all duration-300 transform hover:scale-105 border border-white/40"
+              className="inline-flex items-center px-6 md:px-10 py-3 md:py-4 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full font-light text-sm md:text-lg transition-all duration-300 transform hover:scale-105 border border-white/40"
             >
               네이버 블로그
             </a>
@@ -452,7 +461,7 @@ export default function Sample3() {
               href="https://m.smartstore.naver.com/theroastingbox"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-10 py-4 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full font-light text-lg transition-all duration-300 transform hover:scale-105 border border-white/40"
+              className="inline-flex items-center px-6 md:px-10 py-3 md:py-4 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full font-light text-sm md:text-lg transition-all duration-300 transform hover:scale-105 border border-white/40"
             >
               스마트스토어
             </a>
